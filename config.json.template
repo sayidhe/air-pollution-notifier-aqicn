@@ -1,0 +1,15 @@
+{
+	"city": "",
+	"stationCode": "",
+	"aqicnToken": "",
+	"serverChanKey": "",
+	"scheduleTime": {
+		"days": [0, 1, 2, 3, 4, 5, 6],
+		"hours": [8, 18, 21],
+		"minutes": [20]
+	},
+	"conditions": {
+		"aqi_high": 120,
+		"aqi_low": 50
+	}
+}
