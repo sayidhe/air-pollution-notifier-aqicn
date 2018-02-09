@@ -1,7 +1,6 @@
 const config = require('./config.json');
 const axios = require('axios');
 const readline = require('readline');
-var fs = require("fs");
 
 const app = {
 
@@ -55,7 +54,6 @@ const app = {
 				console.log(num, response.data[num-1].uid, response.data[num-1].aqi, response.data[num-1].station.name);
 				config.stationCode = response.data[num-1].uid;
 				console.log("请在 config.json 文件中，把 stationCode 修改为 " + config.stationCode);
-				// fs.writeFileSync("./config.json", JSON.stringify(config));
 				rl.close();
 				break;
 
