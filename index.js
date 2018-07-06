@@ -115,7 +115,8 @@ const app = {
 			self.severChanGroup(title, body);
 		}
 		if (result.aqi < config.conditions.aqi_low) {
-			self.serverChanKey_Justme(title, body);
+			//self.serverChanKey_Justme(title, body);
+			self.severChanGroup(title, body);
 		}
 	},
 

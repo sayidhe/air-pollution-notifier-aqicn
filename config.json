@@ -10,7 +10,7 @@
 		"minutes": [20]
 	},
 	"conditions": {
-		"aqi_high": 120,
-		"aqi_low": 50
+		"aqi_high": 150,
+		"aqi_low": 100
 	}
 }
