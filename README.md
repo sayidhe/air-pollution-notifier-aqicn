@@ -6,8 +6,17 @@
 ## 安装
 ```shell
 $ git clone https://github.com/sayidly/air-pollution-notifier-aqicn-V3
+$ cd air-pollution-notifier-aqicn-V3
 $ npm install / yarn
 ```
+
+## 如果没有按照 node js，请先安装
+```
+$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+$ sudo apt-get install -y build-essential
+```
+
 ## 配置
 复制配置模板
 ```shell
@@ -40,7 +49,8 @@ $ cp config.json.template config.json
 
 持久运行（需另行配置 pm2 或类似工具）
 ```
-pm2 start index.js --watch --name 'air-pollution-notifier-aqicn'
+$ npm install pm2 -g
+$ pm2 start index.js --watch --name 'air-pollution-notifier-aqicn-V3'
 ```
 ### 鸣谢
 程序升级来自
