@@ -8,7 +8,7 @@
     },
     {
         "name": "优",
-        "implication": "空气质量令人满意，基本无空气污染",
+        "implication": "空气质量很棒，赶快出去大口呼吸",
         "statement": "各类人群可正常活动"
     },
     {
@@ -18,8 +18,8 @@
     },
     {
         "name": "轻度污染",
-        "implication": "易感人群症状有轻度加剧，健康人群出现刺激症状",
-        "statement": "儿童、老年人及心脏病、呼吸系统疾病患者应减少长时间、高强度的户外锻炼"
+        "implication": "Today's Air Quality is 马马虎虎",
+        "statement": "有口罩的话就戴口罩吧"
     },
     {
         "name": "中度污染",
