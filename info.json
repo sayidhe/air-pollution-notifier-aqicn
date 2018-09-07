@@ -18,12 +18,12 @@
     },
     {
         "name": "轻度污染",
-        "implication": "😷 Air is getting bad, mask could be helpful.",
+        "implication": "Air is getting bad, mask could be helpful.",
         "statement": "有口罩的话就戴口罩吧"
     },
     {
         "name": "中度污染",
-        "implication": "💩 Air is poopy, definitely wear a mask.",
+        "implication": "Air is poopy, definitely wear a mask.",
         "statement": "准备好一天的粮食别出门了"
     },
     {
